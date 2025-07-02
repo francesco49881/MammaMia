@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # Servizio MammaMia (costruito dal repository GitHub)
   mammamia:
-    build: ./data/compose/10/Dockerfiles/MammaMia
+    build: ./MammaMia
     container_name: mammamia
     restart: unless-stopped
     ports:
